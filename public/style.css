@@ -84,5 +84,75 @@ h1, h2, h3 {
 }
 
 .logo {
+  background: white;
+  position: relative;
+  top: -10px;
+  padding: 5px 20px 15px 20px;
+  border-radius: 0px 0px 10px 10px;
+}
 
+.z-block-how-logos {
+
+}
+
+.z-block-how-logo {
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  vertical-align: top;
+  position: relative;
+}
+
+.z-block-how-logo span {
+  height: 110px;
+  display: inline-block;
+}
+
+.z-block-newletter-content {
+  text-align: center;
+}
+
+.z-block-newletter-content h2 {
+  margin: 35px 0px;
+}
+
+.z-block-newletter-content p {
+  margin: 15px 0px;
+}
+
+.btn, .btn:hover {
+  background: #056e00;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border-color: #056e00;
+}
+
+#email {
+  width: 300px;
+  border: none;
+  background: #eee;
+}
+
+h2 a {
+  color: #056e00;
+}
+
+.z-block-about {
+  border-top: 1px solid #eee;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.about-honza {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-text {
+  display: inline-block;
+  vertical-align: top;
 }
