@@ -1,0 +1,88 @@
+h1, h2, h3 {
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: 700;
+  color: #056e00;
+}
+
+.z-container {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.z-body {
+  /*max-width: 1000px;*/
+  margin: 0px auto;
+}
+
+.z-block {
+  border: 0px solid #ccc;
+  padding: 10px;
+}
+
+.z-block-main {
+  background: url("/sekacka.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+  color: white;
+  text-align: center;
+}
+
+.z-block-main h2 {
+  font-size: 40px;
+  margin: 100px 0px;
+  color: white;
+}
+
+.z-block-calc {
+  background: url("/back.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+}
+
+.z-block-calc-content {
+  background: white;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0px;
+  color: #056e00;
+}
+
+.z-block-calc-content-left, .z-block-calc-content-right {
+  width: calc(50% - 2px);
+  padding: 30px;
+  display: inline-block;
+}
+
+.z-block-calc-content-right {
+  text-align: center;
+}
+
+#value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.z-block-how {
+  text-align: center;
+}
+
+.z-block-newletter {
+
+}
+
+.z-block-newletter-content {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.z-block-newletter-content h2 {
+  text-align: center;
+}
+
+.logo {
+
+}

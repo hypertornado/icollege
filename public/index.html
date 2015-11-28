@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ČerstváZahrada.cz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="jquery.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+    <div class="z-container">
+      <div class="z-body">
+
+        <div class="z-block z-block-main">
+
+          <img src="/logo.png" class="logo">
+          <h2>Užijte si čerstvě posekanou<br>zahradu, bez práce!</h2>
+        </div>
+
+        <div class="z-block z-block-how">
+          <h3>Jak to funguje?</h3>
+          <p>Chápeme, že sekání trávy na chatě, kde si chcete hlavně odpočinout, nemusí být pro každého vysněná aktivita po náročeném týdnu.
+          <br>
+          S námi se již <b>nemusíte starat o trávník</b> a rovnou se pustíte do odpočinku s rodinou. To je přeci to, oč tu běží</p>
+        </div>
+
+        <div class="z-block z-block-calc">
+
+          <div class="z-block-calc-content">
+
+            <div class="z-block-calc-content-left">
+              <h2>Kalkulačka</h2>
+
+              <p>Vyzkoušejte naši interaktivní kalkulačku a dozvíte se, nakolik vás sekání přibližně vyjde. Naše služby poskytujeme zatím <b>pouze ve Středočeském kraji</b>.</p>
+            </div>
+
+            <div class="z-block-calc-content-right">
+              <h3>přiblížná doba sekání</h3>
+              <form>
+                <div class="form-group">
+                  <input id="range" type="range" min="2" max="10" value="2" step="0.5">
+                </div>
+                <div id="value"></div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="z-block z-block-newletter">
+          <div class="z-block-newletter-content">
+            <h2>Chcete i Vy ušetřit drahocené hodiny?</h2>
+
+            <form class="form-inline" id="newsletter-email" style="text-align: center;" method="post" action="/newsletter">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Napište svůj e-mail a my se vám ozveme">
+              </div>
+              <button type="submit" class="btn btn-default">Dejte mi vědět</button>
+              <p>Ozveme se vám, až službu spustíme.</p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-70778271-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
