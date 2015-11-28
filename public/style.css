@@ -48,7 +48,11 @@ h1, h2, h3 {
   max-width: 800px;
   margin: 50px auto;
   padding: 0px;
-  color: #056e00;
+}
+
+.z-block-calc-content h3 {
+  color: black;
+  font-size: 16px;
 }
 
 .z-block-calc-content-left, .z-block-calc-content-right {
@@ -156,3 +160,37 @@ h2 a {
   display: inline-block;
   vertical-align: top;
 }
+
+.str {
+  padding-top: 20px;
+  padding-left: 100px;
+  background: url('/str.png');
+  background-repeat: no-repeat;
+  min-height: 80px;
+}
+
+.s-step {
+  display: inline-block;
+  width: 18%;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+input[type=range] {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.submited {
+  font-weight: bold;
+  text-align: center;
+  background: #056e00;
+  color: white;
+  padding: 20px 5px;
+  font-size: 2em;
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+
+
